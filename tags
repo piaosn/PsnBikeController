@@ -1,0 +1,428 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASCII	src/lcd5110.cpp	/^static const byte ASCII[][5] =$/;"	v	file:
+Adafruit_GFX	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h):$/;"	f	class:Adafruit_GFX
+Adafruit_GFX	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^class Adafruit_GFX : public Print {$/;"	c
+Adafruit_GFX_Button	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^Adafruit_GFX_Button::Adafruit_GFX_Button(void) {$/;"	f	class:Adafruit_GFX_Button
+Adafruit_GFX_Button	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^class Adafruit_GFX_Button {$/;"	c
+Adafruit_SSD1306	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^Adafruit_SSD1306::Adafruit_SSD1306(int8_t DC, int8_t RST, int8_t CS) : Adafruit_GFX(SSD1306_LCDWIDTH, SSD1306_LCDHEIGHT) {$/;"	f	class:Adafruit_SSD1306
+Adafruit_SSD1306	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^Adafruit_SSD1306::Adafruit_SSD1306(int8_t SID, int8_t SCLK, int8_t DC, int8_t RST, int8_t CS) : Adafruit_GFX(SSD1306_LCDWIDTH, SSD1306_LCDHEIGHT) {$/;"	f	class:Adafruit_SSD1306
+Adafruit_SSD1306	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^Adafruit_SSD1306::Adafruit_SSD1306(int8_t reset) :$/;"	f	class:Adafruit_SSD1306
+Adafruit_SSD1306	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^class Adafruit_SSD1306 : public Adafruit_GFX {$/;"	c
+BLACK	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define BLACK /;"	d
+CC	lib/Adafruit_GFX_Library/fontconvert/Makefile	/^CC     = gcc$/;"	m
+CFLAGS	lib/Adafruit_GFX_Library/fontconvert/Makefile	/^CFLAGS = -Wall -I\/usr\/local\/include\/freetype2 -I\/usr\/include\/freetype2 -I\/usr\/include$/;"	m
+DPI	lib/Adafruit_GFX_Library/fontconvert/fontconvert.c	/^#define DPI /;"	d	file:
+FONT5X7_H	lib/Adafruit_GFX_Library/glcdfont.c	/^#define FONT5X7_H$/;"	d	file:
+GFXcanvas1	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^GFXcanvas1::GFXcanvas1(uint16_t w, uint16_t h) : Adafruit_GFX(w, h) {$/;"	f	class:GFXcanvas1
+GFXcanvas1	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^class GFXcanvas1 : public Adafruit_GFX {$/;"	c
+GFXcanvas16	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^GFXcanvas16::GFXcanvas16(uint16_t w, uint16_t h) : Adafruit_GFX(w, h) {$/;"	f	class:GFXcanvas16
+GFXcanvas16	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^class GFXcanvas16 : public Adafruit_GFX {$/;"	c
+GFXcanvas8	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^GFXcanvas8::GFXcanvas8(uint16_t w, uint16_t h) : Adafruit_GFX(w, h) {$/;"	f	class:GFXcanvas8
+GFXcanvas8	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^class GFXcanvas8 : public Adafruit_GFX {$/;"	c
+GFXfont	lib/Adafruit_GFX_Library/gfxfont.h	/^} GFXfont;$/;"	t	typeref:struct:__anon2
+GFXglyph	lib/Adafruit_GFX_Library/gfxfont.h	/^} GFXglyph;$/;"	t	typeref:struct:__anon1
+HAVE_PORTREG	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  #define HAVE_PORTREG$/;"	d
+HAVE_PORTREG	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^ #define HAVE_PORTREG$/;"	d
+HEIGHT	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    WIDTH, HEIGHT;   \/\/ This is the 'raw' display w\/h - never changes$/;"	m	class:Adafruit_GFX
+INVERSE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define INVERSE /;"	d
+LCD_5110_RSL_X	src/config.h	/^#define LCD_5110_RSL_X /;"	d
+LCD_5110_RSL_Y	src/config.h	/^#define LCD_5110_RSL_Y /;"	d
+LCD_C	src/lcd5110.h	/^#define LCD_C /;"	d
+LCD_D	src/lcd5110.h	/^#define LCD_D /;"	d
+LIBS	lib/Adafruit_GFX_Library/fontconvert/Makefile	/^LIBS   = -lfreetype$/;"	m
+LcdBitmap	src/lcd5110.cpp	/^void LcdBitmap(char my_array[]){$/;"	f
+LcdCharacter	src/lcd5110.cpp	/^void LcdCharacter(char character)$/;"	f
+LcdClear	src/lcd5110.cpp	/^void LcdClear(void)$/;"	f
+LcdGotoX	src/lcd5110.cpp	/^void LcdGotoX(int x)$/;"	f
+LcdGotoXY	src/lcd5110.cpp	/^void LcdGotoXY(int x, int y)$/;"	f
+LcdGotoY	src/lcd5110.cpp	/^void LcdGotoY(int y)$/;"	f
+LcdInitialise	src/lcd5110.cpp	/^void LcdInitialise(void)$/;"	f
+LcdString	src/lcd5110.cpp	/^void LcdString(char *characters)$/;"	f
+LcdWrite	src/lcd5110.cpp	/^void LcdWrite(byte dc, byte data)$/;"	f
+PIN_LCD_5110_DC	src/config.h	/^#define PIN_LCD_5110_DC /;"	d
+PIN_LCD_5110_RESET	src/config.h	/^#define PIN_LCD_5110_RESET /;"	d
+PIN_LCD_5110_SCE	src/config.h	/^#define PIN_LCD_5110_SCE /;"	d
+PIN_LCD_5110_SCLK	src/config.h	/^#define PIN_LCD_5110_SCLK /;"	d
+PIN_LCD_5110_SDIN	src/config.h	/^#define PIN_LCD_5110_SDIN /;"	d
+PIN_POTENTIOMETER	src/config.h	/^#define PIN_POTENTIOMETER /;"	d
+PIN_SSD1306_RESET	src/config.h	/^#define PIN_SSD1306_RESET /;"	d
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono12pt7b.h	/^const GFXfont FreeMono12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono12pt7b.h	/^const GFXglyph FreeMono12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono12pt7b.h	/^const uint8_t FreeMono12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono18pt7b.h	/^const GFXfont FreeMono18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono18pt7b.h	/^const GFXglyph FreeMono18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono18pt7b.h	/^const uint8_t FreeMono18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono24pt7b.h	/^const GFXfont FreeMono24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono24pt7b.h	/^const GFXglyph FreeMono24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono24pt7b.h	/^const uint8_t FreeMono24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono9pt7b.h	/^const GFXfont FreeMono9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono9pt7b.h	/^const GFXglyph FreeMono9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMono9pt7b.h	/^const uint8_t FreeMono9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold12pt7b.h	/^const GFXfont FreeMonoBold12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold12pt7b.h	/^const GFXglyph FreeMonoBold12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold12pt7b.h	/^const uint8_t FreeMonoBold12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold18pt7b.h	/^const GFXfont FreeMonoBold18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold18pt7b.h	/^const GFXglyph FreeMonoBold18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold18pt7b.h	/^const uint8_t FreeMonoBold18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold24pt7b.h	/^const GFXfont FreeMonoBold24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold24pt7b.h	/^const GFXglyph FreeMonoBold24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold24pt7b.h	/^const uint8_t FreeMonoBold24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold9pt7b.h	/^const GFXfont FreeMonoBold9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold9pt7b.h	/^const GFXglyph FreeMonoBold9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBold9pt7b.h	/^const uint8_t FreeMonoBold9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique12pt7b.h	/^const GFXfont FreeMonoBoldOblique12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique12pt7b.h	/^const GFXglyph FreeMonoBoldOblique12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique12pt7b.h	/^const uint8_t FreeMonoBoldOblique12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique18pt7b.h	/^const GFXfont FreeMonoBoldOblique18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique18pt7b.h	/^const GFXglyph FreeMonoBoldOblique18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique18pt7b.h	/^const uint8_t FreeMonoBoldOblique18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique24pt7b.h	/^const GFXfont FreeMonoBoldOblique24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique24pt7b.h	/^const GFXglyph FreeMonoBoldOblique24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique24pt7b.h	/^const uint8_t FreeMonoBoldOblique24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique9pt7b.h	/^const GFXfont FreeMonoBoldOblique9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique9pt7b.h	/^const GFXglyph FreeMonoBoldOblique9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoBoldOblique9pt7b.h	/^const uint8_t FreeMonoBoldOblique9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique12pt7b.h	/^const GFXfont FreeMonoOblique12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique12pt7b.h	/^const GFXglyph FreeMonoOblique12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique12pt7b.h	/^const uint8_t FreeMonoOblique12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique18pt7b.h	/^const GFXfont FreeMonoOblique18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique18pt7b.h	/^const GFXglyph FreeMonoOblique18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique18pt7b.h	/^const uint8_t FreeMonoOblique18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique24pt7b.h	/^const GFXfont FreeMonoOblique24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique24pt7b.h	/^const GFXglyph FreeMonoOblique24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique24pt7b.h	/^const uint8_t FreeMonoOblique24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique9pt7b.h	/^const GFXfont FreeMonoOblique9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique9pt7b.h	/^const GFXglyph FreeMonoOblique9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeMonoOblique9pt7b.h	/^const uint8_t FreeMonoOblique9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans12pt7b.h	/^const GFXfont FreeSans12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans12pt7b.h	/^const GFXglyph FreeSans12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans12pt7b.h	/^const uint8_t FreeSans12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans18pt7b.h	/^const GFXfont FreeSans18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans18pt7b.h	/^const GFXglyph FreeSans18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans18pt7b.h	/^const uint8_t FreeSans18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans24pt7b.h	/^const GFXfont FreeSans24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans24pt7b.h	/^const GFXglyph FreeSans24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans24pt7b.h	/^const uint8_t FreeSans24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans9pt7b.h	/^const GFXfont FreeSans9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans9pt7b.h	/^const GFXglyph FreeSans9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSans9pt7b.h	/^const uint8_t FreeSans9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold12pt7b.h	/^const GFXfont FreeSansBold12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold12pt7b.h	/^const GFXglyph FreeSansBold12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold12pt7b.h	/^const uint8_t FreeSansBold12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold18pt7b.h	/^const GFXfont FreeSansBold18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold18pt7b.h	/^const GFXglyph FreeSansBold18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold18pt7b.h	/^const uint8_t FreeSansBold18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold24pt7b.h	/^const GFXfont FreeSansBold24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold24pt7b.h	/^const GFXglyph FreeSansBold24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold24pt7b.h	/^const uint8_t FreeSansBold24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold9pt7b.h	/^const GFXfont FreeSansBold9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold9pt7b.h	/^const GFXglyph FreeSansBold9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBold9pt7b.h	/^const uint8_t FreeSansBold9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique12pt7b.h	/^const GFXfont FreeSansBoldOblique12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique12pt7b.h	/^const GFXglyph FreeSansBoldOblique12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique12pt7b.h	/^const uint8_t FreeSansBoldOblique12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique18pt7b.h	/^const GFXfont FreeSansBoldOblique18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique18pt7b.h	/^const GFXglyph FreeSansBoldOblique18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique18pt7b.h	/^const uint8_t FreeSansBoldOblique18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique24pt7b.h	/^const GFXfont FreeSansBoldOblique24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique24pt7b.h	/^const GFXglyph FreeSansBoldOblique24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique24pt7b.h	/^const uint8_t FreeSansBoldOblique24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique9pt7b.h	/^const GFXfont FreeSansBoldOblique9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique9pt7b.h	/^const GFXglyph FreeSansBoldOblique9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansBoldOblique9pt7b.h	/^const uint8_t FreeSansBoldOblique9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique12pt7b.h	/^const GFXfont FreeSansOblique12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique12pt7b.h	/^const GFXglyph FreeSansOblique12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique12pt7b.h	/^const uint8_t FreeSansOblique12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique18pt7b.h	/^const GFXfont FreeSansOblique18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique18pt7b.h	/^const GFXglyph FreeSansOblique18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique18pt7b.h	/^const uint8_t FreeSansOblique18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique24pt7b.h	/^const GFXfont FreeSansOblique24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique24pt7b.h	/^const GFXglyph FreeSansOblique24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique24pt7b.h	/^const uint8_t FreeSansOblique24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique9pt7b.h	/^const GFXfont FreeSansOblique9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique9pt7b.h	/^const GFXglyph FreeSansOblique9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSansOblique9pt7b.h	/^const uint8_t FreeSansOblique9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif12pt7b.h	/^const GFXfont FreeSerif12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif12pt7b.h	/^const GFXglyph FreeSerif12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif12pt7b.h	/^const uint8_t FreeSerif12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif18pt7b.h	/^const GFXfont FreeSerif18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif18pt7b.h	/^const GFXglyph FreeSerif18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif18pt7b.h	/^const uint8_t FreeSerif18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif24pt7b.h	/^const GFXfont FreeSerif24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif24pt7b.h	/^const GFXglyph FreeSerif24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif24pt7b.h	/^const uint8_t FreeSerif24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif9pt7b.h	/^const GFXfont FreeSerif9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif9pt7b.h	/^const GFXglyph FreeSerif9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerif9pt7b.h	/^const uint8_t FreeSerif9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold12pt7b.h	/^const GFXfont FreeSerifBold12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold12pt7b.h	/^const GFXglyph FreeSerifBold12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold12pt7b.h	/^const uint8_t FreeSerifBold12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold18pt7b.h	/^const GFXfont FreeSerifBold18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold18pt7b.h	/^const GFXglyph FreeSerifBold18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold18pt7b.h	/^const uint8_t FreeSerifBold18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold24pt7b.h	/^const GFXfont FreeSerifBold24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold24pt7b.h	/^const GFXglyph FreeSerifBold24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold24pt7b.h	/^const uint8_t FreeSerifBold24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold9pt7b.h	/^const GFXfont FreeSerifBold9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold9pt7b.h	/^const GFXglyph FreeSerifBold9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBold9pt7b.h	/^const uint8_t FreeSerifBold9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic12pt7b.h	/^const GFXfont FreeSerifBoldItalic12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic12pt7b.h	/^const GFXglyph FreeSerifBoldItalic12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic12pt7b.h	/^const uint8_t FreeSerifBoldItalic12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic18pt7b.h	/^const GFXfont FreeSerifBoldItalic18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic18pt7b.h	/^const GFXglyph FreeSerifBoldItalic18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic18pt7b.h	/^const uint8_t FreeSerifBoldItalic18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic24pt7b.h	/^const GFXfont FreeSerifBoldItalic24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic24pt7b.h	/^const GFXglyph FreeSerifBoldItalic24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic24pt7b.h	/^const uint8_t FreeSerifBoldItalic24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic9pt7b.h	/^const GFXfont FreeSerifBoldItalic9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic9pt7b.h	/^const GFXglyph FreeSerifBoldItalic9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifBoldItalic9pt7b.h	/^const uint8_t FreeSerifBoldItalic9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic12pt7b.h	/^const GFXfont FreeSerifItalic12pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic12pt7b.h	/^const GFXglyph FreeSerifItalic12pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic12pt7b.h	/^const uint8_t FreeSerifItalic12pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic18pt7b.h	/^const GFXfont FreeSerifItalic18pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic18pt7b.h	/^const GFXglyph FreeSerifItalic18pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic18pt7b.h	/^const uint8_t FreeSerifItalic18pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic24pt7b.h	/^const GFXfont FreeSerifItalic24pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic24pt7b.h	/^const GFXglyph FreeSerifItalic24pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic24pt7b.h	/^const uint8_t FreeSerifItalic24pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic9pt7b.h	/^const GFXfont FreeSerifItalic9pt7b PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic9pt7b.h	/^const GFXglyph FreeSerifItalic9pt7bGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/FreeSerifItalic9pt7b.h	/^const uint8_t FreeSerifItalic9pt7bBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/Org_01.h	/^const GFXfont Org_01 PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/Org_01.h	/^const GFXglyph Org_01Glyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/Org_01.h	/^const uint8_t Org_01Bitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/Picopixel.h	/^const GFXfont Picopixel PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/Picopixel.h	/^const GFXglyph PicopixelGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/Picopixel.h	/^const uint8_t PicopixelBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/TomThumb.h	/^const GFXfont TomThumb PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/TomThumb.h	/^const GFXglyph TomThumbGlyphs[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/Fonts/TomThumb.h	/^const uint8_t TomThumbBitmaps[] PROGMEM = {$/;"	v
+PROGMEM	lib/Adafruit_GFX_Library/glcdfont.c	/^ #define PROGMEM$/;"	d	file:
+PROGMEM	lib/Adafruit_GFX_Library/glcdfont.c	/^static const unsigned char font[] PROGMEM = {$/;"	v	file:
+PSN_COMMON_H	src/common.h	/^#define PSN_COMMON_H$/;"	d
+PSN_CONFIG_H	src/config.h	/^#define PSN_CONFIG_H$/;"	d
+PSN_LCD5110_H	src/lcd5110.h	/^#define PSN_LCD5110_H$/;"	d
+PSN_SCREEN_128_64_H	src/screen_128_64.h	/^#define PSN_SCREEN_128_64_H$/;"	d
+PSN_SSD1306_H	src/ssd1306.h	/^#define PSN_SSD1306_H$/;"	d
+PortMask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  typedef uint32_t PortMask;$/;"	t
+PortMask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  typedef uint8_t PortMask;$/;"	t
+PortMask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^ typedef uint32_t PortMask;$/;"	t
+PortReg	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  typedef volatile uint32_t PortReg;$/;"	t
+PortReg	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  typedef volatile uint8_t PortReg;$/;"	t
+PortReg	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^ typedef volatile RwReg PortReg;$/;"	t
+SSD1306_128_64	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^   #define SSD1306_128_64$/;"	d
+SSD1306_ACTIVATE_SCROLL	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_ACTIVATE_SCROLL /;"	d
+SSD1306_CHARGEPUMP	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_CHARGEPUMP /;"	d
+SSD1306_COLUMNADDR	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_COLUMNADDR /;"	d
+SSD1306_COMSCANDEC	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_COMSCANDEC /;"	d
+SSD1306_COMSCANINC	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_COMSCANINC /;"	d
+SSD1306_DEACTIVATE_SCROLL	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_DEACTIVATE_SCROLL /;"	d
+SSD1306_DISPLAYALLON	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_DISPLAYALLON /;"	d
+SSD1306_DISPLAYALLON_RESUME	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_DISPLAYALLON_RESUME /;"	d
+SSD1306_DISPLAYOFF	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_DISPLAYOFF /;"	d
+SSD1306_DISPLAYON	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_DISPLAYON /;"	d
+SSD1306_EXTERNALVCC	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_EXTERNALVCC /;"	d
+SSD1306_I2C_ADDRESS	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_I2C_ADDRESS /;"	d
+SSD1306_INVERTDISPLAY	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_INVERTDISPLAY /;"	d
+SSD1306_LCDHEIGHT	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  #define SSD1306_LCDHEIGHT /;"	d
+SSD1306_LCDWIDTH	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  #define SSD1306_LCDWIDTH /;"	d
+SSD1306_LEFT_HORIZONTAL_SCROLL	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_LEFT_HORIZONTAL_SCROLL /;"	d
+SSD1306_MEMORYMODE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_MEMORYMODE /;"	d
+SSD1306_NORMALDISPLAY	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_NORMALDISPLAY /;"	d
+SSD1306_PAGEADDR	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_PAGEADDR /;"	d
+SSD1306_RIGHT_HORIZONTAL_SCROLL	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_RIGHT_HORIZONTAL_SCROLL /;"	d
+SSD1306_SEGREMAP	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SEGREMAP /;"	d
+SSD1306_SETCOMPINS	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETCOMPINS /;"	d
+SSD1306_SETCONTRAST	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETCONTRAST /;"	d
+SSD1306_SETDISPLAYCLOCKDIV	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETDISPLAYCLOCKDIV /;"	d
+SSD1306_SETDISPLAYOFFSET	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETDISPLAYOFFSET /;"	d
+SSD1306_SETHIGHCOLUMN	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETHIGHCOLUMN /;"	d
+SSD1306_SETLOWCOLUMN	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETLOWCOLUMN /;"	d
+SSD1306_SETMULTIPLEX	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETMULTIPLEX /;"	d
+SSD1306_SETPRECHARGE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETPRECHARGE /;"	d
+SSD1306_SETSTARTLINE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETSTARTLINE /;"	d
+SSD1306_SETVCOMDETECT	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SETVCOMDETECT /;"	d
+SSD1306_SET_VERTICAL_SCROLL_AREA	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SET_VERTICAL_SCROLL_AREA /;"	d
+SSD1306_SWITCHCAPVCC	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_SWITCHCAPVCC /;"	d
+SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL /;"	d
+SSD1306_VERTICAL_AND_RIGHT_HORIZONTAL_SCROLL	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define SSD1306_VERTICAL_AND_RIGHT_HORIZONTAL_SCROLL /;"	d
+TOMTHUMB_USE_EXTENDED	lib/Adafruit_GFX_Library/Fonts/TomThumb.h	/^#define TOMTHUMB_USE_EXTENDED /;"	d
+WHITE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define WHITE /;"	d
+WIDTH	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    WIDTH, HEIGHT;   \/\/ This is the 'raw' display w\/h - never changes$/;"	m	class:Adafruit_GFX
+WIRE_WRITE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  #define WIRE_WRITE /;"	d
+WIRE_WRITE	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^ #define WIRE_WRITE /;"	d
+_ADAFRUIT_GFX_H	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^#define _ADAFRUIT_GFX_H$/;"	d
+_Adafruit_SSD1306_H_	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^#define _Adafruit_SSD1306_H_$/;"	d
+_GFXFONT_H_	lib/Adafruit_GFX_Library/gfxfont.h	/^#define _GFXFONT_H_$/;"	d
+_cp437	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    _cp437; \/\/ If set, use correct CP437 charset (default is off)$/;"	m	class:Adafruit_GFX
+_fillcolor	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint16_t      _outlinecolor, _fillcolor, _textcolor;$/;"	m	class:Adafruit_GFX_Button
+_gfx	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  Adafruit_GFX *_gfx;$/;"	m	class:Adafruit_GFX_Button
+_h	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint16_t      _w, _h;$/;"	m	class:Adafruit_GFX_Button
+_height	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    _width, _height, \/\/ Display w\/h as modified by current rotation$/;"	m	class:Adafruit_GFX
+_i2caddr	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+_label	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  char          _label[10];$/;"	m	class:Adafruit_GFX_Button
+_outlinecolor	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint16_t      _outlinecolor, _fillcolor, _textcolor;$/;"	m	class:Adafruit_GFX_Button
+_swap_int16_t	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^#define _swap_int16_t(/;"	d	file:
+_textcolor	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint16_t      _outlinecolor, _fillcolor, _textcolor;$/;"	m	class:Adafruit_GFX_Button
+_textsize	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint8_t       _textsize;$/;"	m	class:Adafruit_GFX_Button
+_vccstate	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+_w	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint16_t      _w, _h;$/;"	m	class:Adafruit_GFX_Button
+_width	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    _width, _height, \/\/ Display w\/h as modified by current rotation$/;"	m	class:Adafruit_GFX
+_x1	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  int16_t       _x1, _y1; \/\/ Coordinates of top-left corner$/;"	m	class:Adafruit_GFX_Button
+_y1	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  int16_t       _x1, _y1; \/\/ Coordinates of top-left corner$/;"	m	class:Adafruit_GFX_Button
+begin	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::begin(uint8_t vccstate, uint8_t i2caddr, bool reset) {$/;"	f	class:Adafruit_SSD1306
+bitmap	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t  *bitmap;      \/\/ Glyph bitmaps, concatenated$/;"	m	struct:__anon2
+bitmapOffset	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint16_t bitmapOffset;     \/\/ Pointer into GFXfont->bitmap$/;"	m	struct:__anon1
+buffer	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint16_t *buffer;$/;"	m	class:GFXcanvas16
+buffer	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint8_t *buffer;$/;"	m	class:GFXcanvas1
+buffer	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  uint8_t *buffer;$/;"	m	class:GFXcanvas8
+buffer	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^static uint8_t buffer[SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH \/ 8] = {$/;"	v	file:
+charBounds	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::charBounds(char c, int16_t *x, int16_t *y,$/;"	f	class:Adafruit_GFX
+clearDisplay	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::clearDisplay(void) {$/;"	f	class:Adafruit_SSD1306
+clkpinmask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortMask mosipinmask, clkpinmask, cspinmask, dcpinmask;$/;"	m	class:Adafruit_SSD1306
+clkport	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortReg *mosiport, *clkport, *csport, *dcport;$/;"	m	class:Adafruit_SSD1306
+contains	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^boolean Adafruit_GFX_Button::contains(int16_t x, int16_t y) {$/;"	f	class:Adafruit_GFX_Button
+cp437	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::cp437(boolean x) {$/;"	f	class:Adafruit_GFX
+cs	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+cspinmask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortMask mosipinmask, clkpinmask, cspinmask, dcpinmask;$/;"	m	class:Adafruit_SSD1306
+csport	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortReg *mosiport, *clkport, *csport, *dcport;$/;"	m	class:Adafruit_SSD1306
+currstate	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  boolean currstate, laststate;$/;"	m	class:Adafruit_GFX_Button
+cursor_x	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    cursor_x, cursor_y;$/;"	m	class:Adafruit_GFX
+cursor_y	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    cursor_x, cursor_y;$/;"	m	class:Adafruit_GFX
+dc	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+dcpinmask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortMask mosipinmask, clkpinmask, cspinmask, dcpinmask;$/;"	m	class:Adafruit_SSD1306
+dcport	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortReg *mosiport, *clkport, *csport, *dcport;$/;"	m	class:Adafruit_SSD1306
+dim	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::dim(boolean dim) {$/;"	f	class:Adafruit_SSD1306
+display	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::display(void) {$/;"	f	class:Adafruit_SSD1306
+drawBitmap	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawBitmap(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+drawButton	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX_Button::drawButton(boolean inverted) {$/;"	f	class:Adafruit_GFX_Button
+drawChar	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawChar(int16_t x, int16_t y, unsigned char c,$/;"	f	class:Adafruit_GFX
+drawCircle	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawCircle(int16_t x0, int16_t y0, int16_t r,$/;"	f	class:Adafruit_GFX
+drawCircleHelper	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawCircleHelper( int16_t x0, int16_t y0,$/;"	f	class:Adafruit_GFX
+drawFastHLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawFastHLine(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+drawFastHLine	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::drawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t color) {$/;"	f	class:Adafruit_SSD1306
+drawFastHLineInternal	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::drawFastHLineInternal(int16_t x, int16_t y, int16_t w, uint16_t color) {$/;"	f	class:Adafruit_SSD1306
+drawFastVLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawFastVLine(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+drawFastVLine	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::drawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t color) {$/;"	f	class:Adafruit_SSD1306
+drawFastVLineInternal	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::drawFastVLineInternal(int16_t x, int16_t __y, int16_t __h, uint16_t color) {$/;"	f	class:Adafruit_SSD1306
+drawGrayscaleBitmap	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawGrayscaleBitmap(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+drawLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1,$/;"	f	class:Adafruit_GFX
+drawPixel	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas16::drawPixel(int16_t x, int16_t y, uint16_t color) {$/;"	f	class:GFXcanvas16
+drawPixel	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas1::drawPixel(int16_t x, int16_t y, uint16_t color) {$/;"	f	class:GFXcanvas1
+drawPixel	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas8::drawPixel(int16_t x, int16_t y, uint16_t color) {$/;"	f	class:GFXcanvas8
+drawPixel	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::drawPixel(int16_t x, int16_t y, uint16_t color) {$/;"	f	class:Adafruit_SSD1306
+drawRGBBitmap	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawRGBBitmap(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+drawRect	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawRect(int16_t x, int16_t y, int16_t w, int16_t h,$/;"	f	class:Adafruit_GFX
+drawRoundRect	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawRoundRect(int16_t x, int16_t y, int16_t w,$/;"	f	class:Adafruit_GFX
+drawTriangle	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawTriangle(int16_t x0, int16_t y0,$/;"	f	class:Adafruit_GFX
+drawXBitmap	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::drawXBitmap(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+enbit	lib/Adafruit_GFX_Library/fontconvert/fontconvert.c	/^void enbit(uint8_t value) {$/;"	f
+endWrite	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::endWrite(){$/;"	f	class:Adafruit_GFX
+fastSPIwrite	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^inline void Adafruit_SSD1306::fastSPIwrite(uint8_t d) {$/;"	f	class:Adafruit_SSD1306
+fillCircle	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::fillCircle(int16_t x0, int16_t y0, int16_t r,$/;"	f	class:Adafruit_GFX
+fillCircleHelper	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,$/;"	f	class:Adafruit_GFX
+fillRect	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,$/;"	f	class:Adafruit_GFX
+fillRoundRect	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::fillRoundRect(int16_t x, int16_t y, int16_t w,$/;"	f	class:Adafruit_GFX
+fillScreen	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::fillScreen(uint16_t color) {$/;"	f	class:Adafruit_GFX
+fillScreen	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas16::fillScreen(uint16_t color) {$/;"	f	class:GFXcanvas16
+fillScreen	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas1::fillScreen(uint16_t color) {$/;"	f	class:GFXcanvas1
+fillScreen	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas8::fillScreen(uint16_t color) {$/;"	f	class:GFXcanvas8
+fillTriangle	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::fillTriangle(int16_t x0, int16_t y0,$/;"	f	class:Adafruit_GFX
+first	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t   first, last; \/\/ ASCII extents$/;"	m	struct:__anon2
+g_color	src/screen_128_64.cpp	/^uint16_t g_color = WHITE;$/;"	v
+g_color_bk	src/screen_128_64.cpp	/^uint16_t g_color_bk = BLACK;$/;"	v
+getBuffer	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^uint16_t* GFXcanvas16::getBuffer(void) {$/;"	f	class:GFXcanvas16
+getBuffer	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^uint8_t* GFXcanvas1::getBuffer(void) {$/;"	f	class:GFXcanvas1
+getBuffer	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^uint8_t* GFXcanvas8::getBuffer(void) {$/;"	f	class:GFXcanvas8
+getCursorX	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^int16_t Adafruit_GFX::getCursorX(void) const {$/;"	f	class:Adafruit_GFX
+getCursorY	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^int16_t Adafruit_GFX::getCursorY(void) const {$/;"	f	class:Adafruit_GFX
+getRotation	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^uint8_t Adafruit_GFX::getRotation(void) const {$/;"	f	class:Adafruit_GFX
+getTextBounds	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::getTextBounds(char *str, int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+getTextBounds	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::getTextBounds(const __FlashStringHelper *str,$/;"	f	class:Adafruit_GFX
+gfxFont	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    *gfxFont;$/;"	m	class:Adafruit_GFX
+glyph	lib/Adafruit_GFX_Library/gfxfont.h	/^	GFXglyph *glyph;       \/\/ Glyph array$/;"	m	struct:__anon2
+height	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^int16_t Adafruit_GFX::height(void) const {$/;"	f	class:Adafruit_GFX
+height	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t  width, height;    \/\/ Bitmap dimensions in pixels$/;"	m	struct:__anon1
+hwSPI	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  boolean hwSPI;$/;"	m	class:Adafruit_SSD1306
+i	src/ssd1306.cpp	/^int i = 0;$/;"	v
+initButton	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX_Button::initButton($/;"	f	class:Adafruit_GFX_Button
+initButtonUL	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX_Button::initButtonUL($/;"	f	class:Adafruit_GFX_Button
+init_layout_211	src/screen_128_64.cpp	/^init_layout_211() {$/;"	f
+init_status_bar	src/screen_128_64.cpp	/^init_status_bar() {$/;"	f
+invertDisplay	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::invertDisplay(boolean i) {$/;"	f	class:Adafruit_GFX
+invertDisplay	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::invertDisplay(uint8_t i) {$/;"	f	class:Adafruit_SSD1306
+isPressed	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^boolean Adafruit_GFX_Button::isPressed() { return currstate; }$/;"	f	class:Adafruit_GFX_Button
+justPressed	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^boolean Adafruit_GFX_Button::justPressed() { return (currstate && !laststate); }$/;"	f	class:Adafruit_GFX_Button
+justReleased	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^boolean Adafruit_GFX_Button::justReleased() { return (!currstate && laststate); }$/;"	f	class:Adafruit_GFX_Button
+last	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t   first, last; \/\/ ASCII extents$/;"	m	struct:__anon2
+laststate	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^  boolean currstate, laststate;$/;"	m	class:Adafruit_GFX_Button
+loop	src/main.cpp	/^void loop() {$/;"	f
+main	lib/Adafruit_GFX_Library/fontconvert/fontconvert.c	/^int main(int argc, char *argv[]) {$/;"	f
+min	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^#define min(/;"	d	file:
+mosipinmask	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortMask mosipinmask, clkpinmask, cspinmask, dcpinmask;$/;"	m	class:Adafruit_SSD1306
+mosiport	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  PortReg *mosiport, *clkport, *csport, *dcport;$/;"	m	class:Adafruit_SSD1306
+pgm_read_byte	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^ #define pgm_read_byte(/;"	d	file:
+pgm_read_byte	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^ #define pgm_read_byte(/;"	d	file:
+pgm_read_dword	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^ #define pgm_read_dword(/;"	d	file:
+pgm_read_pointer	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^ #define pgm_read_pointer(/;"	d	file:
+pgm_read_word	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^ #define pgm_read_word(/;"	d	file:
+press	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX_Button::press(boolean p) {$/;"	f	class:Adafruit_GFX_Button
+print_sin	src/ssd1306.cpp	/^void print_sin() {$/;"	f
+rotation	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    rotation;$/;"	m	class:Adafruit_GFX
+rst	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+sclk	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+screen_clear	src/screen_128_64.cpp	/^void screen_clear() {$/;"	f
+screen_init	src/screen_128_64.cpp	/^void screen_init() {$/;"	f
+screen_main	src/screen_128_64.cpp	/^void screen_main() {$/;"	f
+screen_set_color	src/screen_128_64.cpp	/^void screen_set_color(uint16_t color) {$/;"	f
+setCursor	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setCursor(int16_t x, int16_t y) {$/;"	f	class:Adafruit_GFX
+setFont	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setFont(const GFXfont *f) {$/;"	f	class:Adafruit_GFX
+setRotation	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setRotation(uint8_t x) {$/;"	f	class:Adafruit_GFX
+setTextColor	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setTextColor(uint16_t c) {$/;"	f	class:Adafruit_GFX
+setTextColor	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setTextColor(uint16_t c, uint16_t b) {$/;"	f	class:Adafruit_GFX
+setTextSize	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setTextSize(uint8_t s) {$/;"	f	class:Adafruit_GFX
+setTextWrap	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::setTextWrap(boolean w) {$/;"	f	class:Adafruit_GFX
+setup	src/main.cpp	/^void setup() {$/;"	f
+sid	lib/Adafruit_SSD1306/Adafruit_SSD1306.h	/^  int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;$/;"	m	class:Adafruit_SSD1306
+ssd1306_command	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::ssd1306_command(uint8_t c) {$/;"	f	class:Adafruit_SSD1306
+ssd1306_display	src/ssd1306.cpp	/^void ssd1306_display() {$/;"	f
+ssd1306_draw_line	src/ssd1306.cpp	/^void ssd1306_draw_line(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color) {$/;"	f
+ssd1306_fill_rect	src/ssd1306.cpp	/^void ssd1306_fill_rect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color) {$/;"	f
+ssd1306_init	src/ssd1306.cpp	/^void ssd1306_init() {$/;"	f
+ssd1306_loop	src/ssd1306.cpp	/^void ssd1306_loop() {$/;"	f
+ssd1306_print	src/ssd1306.cpp	/^void ssd1306_print() {$/;"	f
+ssd1306_swap	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^#define ssd1306_swap(/;"	d	file:
+startWrite	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::startWrite(){$/;"	f	class:Adafruit_GFX
+startscrolldiagleft	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::startscrolldiagleft(uint8_t start, uint8_t stop){$/;"	f	class:Adafruit_SSD1306
+startscrolldiagright	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::startscrolldiagright(uint8_t start, uint8_t stop){$/;"	f	class:Adafruit_SSD1306
+startscrollleft	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::startscrollleft(uint8_t start, uint8_t stop){$/;"	f	class:Adafruit_SSD1306
+startscrollright	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::startscrollright(uint8_t start, uint8_t stop){$/;"	f	class:Adafruit_SSD1306
+stopscroll	lib/Adafruit_SSD1306/Adafruit_SSD1306.cpp	/^void Adafruit_SSD1306::stopscroll(void){$/;"	f	class:Adafruit_SSD1306
+textbgcolor	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    textcolor, textbgcolor;$/;"	m	class:Adafruit_GFX
+textcolor	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    textcolor, textbgcolor;$/;"	m	class:Adafruit_GFX
+textsize	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    textsize,$/;"	m	class:Adafruit_GFX
+time	src/ssd1306.cpp	/^unsigned long time = 0;$/;"	v
+width	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^int16_t Adafruit_GFX::width(void) const {$/;"	f	class:Adafruit_GFX
+width	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t  width, height;    \/\/ Bitmap dimensions in pixels$/;"	m	struct:__anon1
+wrap	lib/Adafruit_GFX_Library/Adafruit_GFX.h	/^    wrap,   \/\/ If set, 'wrap' text at right edge of display$/;"	m	class:Adafruit_GFX
+write	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^size_t Adafruit_GFX::write(uint8_t c) {$/;"	f	class:Adafruit_GFX
+writeFastHLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::writeFastHLine(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+writeFastHLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void GFXcanvas8::writeFastHLine(int16_t x, int16_t y,$/;"	f	class:GFXcanvas8
+writeFastVLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::writeFastVLine(int16_t x, int16_t y,$/;"	f	class:Adafruit_GFX
+writeFillRect	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::writeFillRect(int16_t x, int16_t y, int16_t w, int16_t h,$/;"	f	class:Adafruit_GFX
+writeLine	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::writeLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1,$/;"	f	class:Adafruit_GFX
+writePixel	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^void Adafruit_GFX::writePixel(int16_t x, int16_t y, uint16_t color){$/;"	f	class:Adafruit_GFX
+xAdvance	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t  xAdvance;         \/\/ Distance to advance cursor (x axis)$/;"	m	struct:__anon1
+xOffset	lib/Adafruit_GFX_Library/gfxfont.h	/^	int8_t   xOffset, yOffset; \/\/ Dist from cursor pos to UL corner$/;"	m	struct:__anon1
+yAdvance	lib/Adafruit_GFX_Library/gfxfont.h	/^	uint8_t   yAdvance;    \/\/ Newline distance (y axis)$/;"	m	struct:__anon2
+yOffset	lib/Adafruit_GFX_Library/gfxfont.h	/^	int8_t   xOffset, yOffset; \/\/ Dist from cursor pos to UL corner$/;"	m	struct:__anon1
+~GFXcanvas1	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^GFXcanvas1::~GFXcanvas1(void) {$/;"	f	class:GFXcanvas1
+~GFXcanvas16	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^GFXcanvas16::~GFXcanvas16(void) {$/;"	f	class:GFXcanvas16
+~GFXcanvas8	lib/Adafruit_GFX_Library/Adafruit_GFX.cpp	/^GFXcanvas8::~GFXcanvas8(void) {$/;"	f	class:GFXcanvas8

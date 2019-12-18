@@ -1,0 +1,44 @@
+{
+    "license": "MIT", 
+    "name": "nanopb-arduino", 
+    "repository": {
+        "url": "https://github.com/eric-wieser/nanopb-arduino.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.0.0", 
+    "dependencies": [
+        {
+            "name": "Nanopb"
+        }
+    ], 
+    "authors": [
+        {
+            "url": null, 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Eric Wieser"
+        }
+    ], 
+    "keywords": [
+        "print", 
+        "nanopb", 
+        "stream", 
+        "protobuf"
+    ], 
+    "homepage": "https://github.com/eric-wieser/nanopb-arduino", 
+    "id": 1385, 
+    "description": "Simple layer to convert arduino Streams into nanopb's pb_streams"
+}
